@@ -2,3 +2,14 @@ baseURL = "https://jacopofar.github.io/facts/"
 languageCode = "en-us"
 title = "Sparse facts"
 publishDir = "docs"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+# search engine
+#[outputs]
+#home = [ "HTML", "RSS", "JSON"]
+
+googleAnalytics = "UA-102288751-1"
