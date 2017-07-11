@@ -7,7 +7,7 @@
     <meta name="description" content="">
 
 
-    <title>Posts :: Sparse facts</title>
+    <title>Coordinate Geografiche Cina :: Sparse facts</title>
     <link rel="shortcut icon" href="/facts/images/favicon.png" type="image/x-icon" />
     <link href="/facts/css/nucleus.css" rel="stylesheet">
     <link href="/facts/css/font-awesome.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
     
 
   </head>
-  <body class="" data-url="/facts/post/">
+  <body class="" data-url="/facts/post/coordinate-geografiche-cina/">
     <nav id="sidebar" class="">
 
 
@@ -88,7 +88,7 @@
   
     <li data-nav-id="/facts/post/" class="dd-item 
         parent
-        active
+        
         
         ">
       <a href="/facts/post/">
@@ -111,7 +111,7 @@
   
     
       <li data-nav-id="/facts/post/coordinate-geografiche-cina/" class="dd-item
-     
+     active
       ">
         <a href="/facts/post/coordinate-geografiche-cina/">
         <span>Coordinate Geografiche Cina</span> 
@@ -182,7 +182,12 @@
 
 
 
- <a href='/facts/'></a> > Posts
+
+
+
+ <a href='/facts/'></a> > <a href='/facts/post/'>Posts</a> > Coordinate Geografiche Cina
+
+ 
 
  
 
@@ -200,85 +205,36 @@
         
         <div id="body-inner">
           
-            <h1>Posts</h1>
+            <h1>Coordinate Geografiche Cina</h1>
           
 
 
 
 
+<p>La Cina gestisce la cartografia elettronica sul proprio territorio nella stessa maniera in cui gestisce molte altre tecnologie: secondo procedure complicate, burocratiche e totalmente diverse dal resto del mondo.</p>
+
+<p>Ma per capire bene la faccenda riassumiamo la situazione della geodesia. La geodesia (lett. &ldquo;divisione della terra&rdquo;) è la scienza che si occupa del calcolo e della misura delle coordinate sulla Terra. Come saprete, la Terra non è neanche lontanamente una sfera ma ha una forma piuttosto bitorzoluta, chiamata &ldquo;geoide&rdquo;, che però non ci aiuta dato che vuol dire proprio che la Terra ha la forma della Terra.</p>
+
+<p>Se la Terra fosse una sfera, una volta individuati l&rsquo;equatore e il meridiano di Greenwich o in generale due circonferenze non parallele di riferimento, si potrebbero definire le coordinate di qualsiasi punto con i due angoli rispetto al centro e a questi indicatori, la latitudine e la longitudine.</p>
+
+<p>Invece, l&rsquo;irregolarità della forma della Terra fa sì che, una volta ottenute latitudine e longitudine, le si debba riportare su un modello preciso del geoide, onde evitare errori che possono arrivare anche a una decina di km. Quindi, dagli inizi del &lsquo;900, gli scienziati lavorano per affinare questi modelli combinando le diverse misurazioni e fare sì che siano condivisi. Con l&rsquo;avvento dell&rsquo;aereo e i primi esperimenti aerospaziali, l&rsquo;esigenza è diventata ancora più pressante e così a metà del &lsquo;900 l&rsquo;esercito americano ha creato una commissione di scienziati da diverse nazioni per definire uno standard universale. Nacque così il WGS60 (World Geodetic System del 1960), rivisto poi varie volte fino alla versione del 1984, chiamata appunto <strong>WGS84</strong>.</p>
+
+<p>Questo modello differisce dalla forma del geoide (ossia della Terra) di meno di un metro sul livello medio del mare in ogni punto della superficie. Quindi il problema delle coordinate è &ldquo;risolto&rdquo;, salvo ulteriori perfezionamenti del modello (è stato infatti aggiornato nel 2002, ma l&rsquo;ellissoide di riferimento non è cambiato), quindi ci si aspetta che tutti lo usino in modo che le coordinate possano essere scambiate in sicurezza. E invece <strong>no</strong>. Come avrete intuito dall&rsquo;incipit, la Cina non ha adottato il WSG84 bensì un suo sistema chiamato <strong>GCJ-02</strong>. La documentazione ufficiale su questo standard è molto scarsa in inglese, e le coordinate sono &ldquo;crittate&rdquo;, ossia non è possibile (almeno in teoria), convertire con sicurezza delle coordinate tra i due sistemi, con il risultato che una mappa fatta sfruttando GCJ02 può essere anche 1km &ldquo;spostata&rdquo; rispetto a una calcolata in base a WGS84.</p>
+
+<p>In più, la Cina richiede un permeso per ogni attività di mappatura del proprio territorio, quindi è vietato circolare con un normale GPS e annotare le coordinate di edifici o strade se non si ha un&rsquo;autorizzazione che viene concessa solo se si stabilisce una partnership con le aziende di stato che ovviamente usano GCJ02. Questo vale anche per i singoli individui, quindi un privato cittadino non può raccogliere questi dati legalmente e ci sono stati casi di <a href="https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China">studenti multati</a>.</p>
+
+<p>Ma in cosa differisce davvero GCJ02 dallo standard WGS84 usato nel mondo libero? Innanzitutto, <strong>GCJ02 è basato su WGS84</strong> a meno di un offset apparentemente casuale. Quindi si tratta di un meccanismo per &ldquo;nascondere&rdquo; le coordinate vere aggiungendo un valore che è calcolato con una formula segreta. Senza sapere la formula si subisce un errore non da poco nelle coordinate (anche 1 km) che rende inutilizzabili ad esempio i navigatori satellitari.</p>
+
+<p>La formula è tenuta segreta dal governo Cinese, ma l&rsquo;analisi incrociata dei dati nei due sistemi geodesici tramite trasformata di Fourier e del codice di alcuni software che eseguono la conversione ha portato alla scoperta della formula, al punto che sono ora presenti per molti linguaggi delle librerie che effettuano la conversione. L&rsquo;uso di queste librerie è ovviamente illegale in Cina.</p>
+
+<p>Approfondimenti:
+* <a href="https://gis.stackexchange.com/questions/141542/what-causes-the-gps-offset-shift-in-china">https://gis.stackexchange.com/questions/141542/what-causes-the-gps-offset-shift-in-china</a>
+* <a href="https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China">https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China</a></p>
 
 
 <footer class=" footline" >
 	
 </footer>
-
-
-
-	
-
-	<div class="extra-pagination inner">
-	<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 on 1</span>
-	
-</nav>
-
-	</div>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/facts/post/coordinate-geografiche-cina/">Coordinate Geografiche Cina</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>La Cina gestisce la cartografia elettronica sul proprio territorio nella stessa maniera in cui gestisce molte altre tecnologie: secondo procedure complicate, burocratiche e totalmente diverse dal resto del mondo.
-Ma per capire bene la faccenda riassumiamo la situazione della geodesia. La geodesia (lett. &ldquo;divisione della terra&rdquo;) è la scienza che si occupa del calcolo e della misura delle coordinate sulla Terra. Come saprete, la Terra non è neanche lontanamente una sfera ma ha una forma piuttosto bitorzoluta, chiamata &ldquo;geoide&rdquo;, che però non ci aiuta dato che vuol dire proprio che la Terra ha la forma della Terra. <a class="read-more" href="/facts/post/coordinate-geografiche-cina/">&raquo;</a></p>
-    </section>
-    <footer class=" footline" >
-         
-        
-
-        
-        
-
-    </footer>
-</article>
-
-
-
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/facts/post/percezione-rappresentazione-colori/">La percezione e la rappresentazione dei colori</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>Come tutti saprete, la luce è solo il nome che diamo a una banda dello spettro elettromagnetico che i nostri occhi vedono. Non è qualitativamente diversa dalle onde radio o dai raggi X, semplicemente noi la vediamo e la chiamiamo luce, in base poi alla frequenza esatta della radiazione elettromagnetica in questo spettro, abbiamo i colori.
-Fin qui, tutto chiaro. Gli esseri umani hanno nella retina due tipi di cellule sensibili alla luce: i bastoncelli, che riconoscono la presenza o meno di luce e basta, e i coni, che identificano un colore specifico, o meglio una banda di colori che variano in base al tipo di cono. <a class="read-more" href="/facts/post/percezione-rappresentazione-colori/">&raquo;</a></p>
-    </section>
-    <footer class=" footline" >
-         
-        
-
-        
-        
-
-    </footer>
-</article>
-
-
-
-
-	
-
-	<div style="margin-bottom:2rem"></div>
-
-	<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 on 1</span>
-	
-</nav>
-
 
 
 
@@ -328,8 +284,6 @@ Fin qui, tutto chiaro. Gli esseri umani hanno nella retina due tipi di cellule s
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -347,6 +301,9 @@ Fin qui, tutto chiaro. Gli esseri umani hanno nella retina due tipi di cellule s
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -368,10 +325,10 @@ Fin qui, tutto chiaro. Gli esseri umani hanno nella retina due tipi di cellule s
 
 
         
-            <a class="nav nav-prev" href="/facts/" title=""> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/facts/post/" title="Posts"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/facts/post/coordinate-geografiche-cina/" title="Coordinate Geografiche Cina" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/facts/post/percezione-rappresentazione-colori/" title="La percezione e la rappresentazione dei colori" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -398,3 +355,4 @@ Fin qui, tutto chiaro. Gli esseri umani hanno nella retina due tipi di cellule s
 
   </body>
 </html>
+
