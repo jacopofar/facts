@@ -1,7 +1,6 @@
 ---
 title: "La percezione e la rappresentazione dei colori"
-date: 2017-07-11T09:05:51+02:00
-draft: true
+date: 2017-07-11T09:09:47+02:00
 ---
 
 Come tutti saprete, la luce è solo il nome che diamo a una banda dello spettro elettromagnetico che i nostri occhi vedono. Non è qualitativamente diversa dalle onde radio o dai raggi X, semplicemente noi la vediamo e la chiamiamo luce, in base poi alla frequenza esatta della radiazione elettromagnetica in questo spettro, abbiamo i colori.
