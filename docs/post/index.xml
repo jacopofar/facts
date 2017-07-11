@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Sparse facts</title>
+    <title>Sparse facts</title>
     <link>https://jacopofar.github.io/facts/post/</link>
-    <description>Recent content in Posts on Sparse facts</description>
+    <description>Recent content on Sparse facts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jul 2017 09:25:29 +0200</lastBuildDate>
