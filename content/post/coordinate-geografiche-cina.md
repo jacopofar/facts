@@ -1,5 +1,5 @@
 ---
-title: "Coordinate Geografiche Cina"
+title: "La geodesia e le coordinate geografiche in Cina"
 date: 2017-07-11T09:25:29+02:00
 ---
 La Cina gestisce la cartografia elettronica sul proprio territorio nella stessa maniera in cui gestisce molte altre tecnologie: secondo procedure complicate, burocratiche e totalmente diverse dal resto del mondo.
