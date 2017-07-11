@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>https://jacopofar.github.io/facts/post/hello-world/</loc>
-    <lastmod>2017-07-09T19:26:03+02:00</lastmod>
+    <loc>https://jacopofar.github.io/facts/_header/</loc>
   </url>
   
   <url>
-    <loc>https://jacopofar.github.io/facts/_header/</loc>
+    <loc>https://jacopofar.github.io/facts/</loc>
+    <lastmod>2017-07-11T09:09:47+02:00</lastmod>
   </url>
   
   <url>
@@ -29,12 +29,6 @@
   
   <url>
     <loc>https://jacopofar.github.io/facts/series/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jacopofar.github.io/facts/</loc>
-    <lastmod>2017-07-11T09:09:47+02:00</lastmod>
     <priority>0</priority>
   </url>
   
