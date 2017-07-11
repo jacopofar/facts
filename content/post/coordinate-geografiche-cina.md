@@ -19,5 +19,7 @@ Ma in cosa differisce davvero GCJ02 dallo standard WGS84 usato nel mondo libero?
 La formula è tenuta segreta dal governo Cinese, ma l'analisi incrociata dei dati nei due sistemi geodesici tramite trasformata di Fourier e del codice di alcuni software che eseguono la conversione ha portato alla scoperta della formula, al punto che sono ora presenti per molti linguaggi delle librerie che effettuano la conversione. L'uso di queste librerie è ovviamente illegale in Cina.
 
 Approfondimenti:
+
 * https://gis.stackexchange.com/questions/141542/what-causes-the-gps-offset-shift-in-china
+
 * https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China
